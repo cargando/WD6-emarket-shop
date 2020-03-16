@@ -1,5 +1,6 @@
 *, *:after, *:before {
 	box-sizing: border-box;
+	font-family: 'Sen', sans-serif;
 }
 
 .container {
@@ -119,9 +120,13 @@
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
-	flex-direction: column;
+	justify-content: center;
 	width: 120px;
 	height: 120px;
+}
+.header__main-ad-price_center {
+	display: flex;
+	flex-direction: column;
 }
 .header__main-ad-price h3 {
 	font-size: 32px;
